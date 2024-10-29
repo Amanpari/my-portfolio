@@ -1,0 +1,132 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 10px 0 0;
+    font-size: 2.5em;
+    animation: slide-down 1s ease-out;
+    color: #f4b400;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+/* Profile Image Styling */
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Circular shape */
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Section Styles with Colors */
+section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+/* About Section - Light Blue */
+#about {
+    background-color: #e3f2fd;
+    border-left: 5px solid #42a5f5;
+}
+
+/* Skills Section - Light Green */
+#skills {
+    background-color: #e8f5e9;
+    border-left: 5px solid #66bb6a;
+}
+
+/* Projects Section - Light Yellow */
+#projects {
+    background-color: #fff9c4;
+    border-left: 5px solid #ffeb3b;
+}
+
+/* Achievements Section - Light Pink */
+#achievements {
+    background-color: #fce4ec;
+    border-left: 5px solid #ec407a;
+}
+
+/* Contact Section - Light Purple */
+#contact {
+    background-color: #e1bee7;
+    border-left: 5px solid #ab47bc;
+}
+
+/* Text and List Styles */
+h2 {
+    color: #333;
+    font-size: 1.8em;
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+/* Animations */
+@keyframes slide-down {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+section.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
