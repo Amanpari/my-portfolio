@@ -44,14 +44,7 @@ nav a:hover {
     color: #ffd700;
 }
 
-/* Profile Image Styling */
-.profile-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%; /* Circular shape */
-    margin-top: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
+
 
 /* Section Styles with Colors */
 section {
